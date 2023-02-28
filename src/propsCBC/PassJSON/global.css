@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: black; */
+}
+.mainblock{
+    border: 2px solid red;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+.mainblock div{
+    border: 2px solid blue;
+    width: 510px;
+    padding: 10px;
+}

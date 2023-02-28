@@ -1,0 +1,67 @@
+[
+{
+   "emp_id":"1",
+   "emp-name":"RED",
+   "emp_sal":"50000",
+   "emp_des":"leader",
+   "emp_gender":"male",
+   "emp_education":"BE",
+   "emp_exp":"5 years",
+   "emp_companies":{"previous":"cognizant","current":"tcs"},
+   "emp_img":"red",
+   "emp_skills":["HTML","CSS","JS"],
+   "emp_city":"banglore"
+},
+{
+    "emp_id":"2",
+    "emp-name":"BLUE",
+    "emp_sal":"40000",
+    "emp_des":"dev",
+    "emp_gender":"male",
+    "emp_education":"BSC",
+    "emp_exp":"4 years",
+    "emp_companies":{"previous":"capgemini","current":"tcs"},
+    "emp_img":"blue",
+    "emp_skills":["ReactJS","Node JS","MongoDB","JS"],
+    "emp_city":"pune"
+},
+{
+    "emp_id":"3",
+    "emp-name":"GREEN",
+    "emp_sal":"30000",
+    "emp_des":"tester",
+    "emp_gender":"male",
+    "emp_education":"Btech",
+    "emp_exp":"3 years",
+    "emp_companies":{"previous":"infosys","current":"tcs"},
+    "emp_img":"green",
+    "emp_skills":["Java","SQL","WEB tech"],
+    "emp_city":"banglore"
+},
+{
+    "emp_id":"4",
+    "emp-name":"YELLOW",
+    "emp_sal":"20000",
+    "emp_des":"dev",
+    "emp_gender":"female",
+    "emp_education":"BE",
+    "emp_exp":"2 years",
+    "emp_companies":{"previous":"cognizant","current":"tcs"},
+    "emp_img":"yellow",
+    "emp_skills":["python","angularJs"],
+    "emp_city":"banglore"
+},
+{
+    "emp_id":"5",
+    "emp-name":"PINK",
+    "emp_sal":"10000",
+    "emp_des":"dev",
+    "emp_gender":"female",
+    "emp_education":"Btech",
+    "emp_exp":"1 year",
+    "emp_companies":{"previous":"wipro","current":"tcs"},
+    "emp_img":"pink",
+    "emp_skills":["java"],
+    "emp_city":"pune"
+}
+]

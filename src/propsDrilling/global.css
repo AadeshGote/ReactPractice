@@ -1,0 +1,25 @@
+*{
+    margin: 10px;
+    padding: 10px;
+}
+.rootComponent{
+    background-color: purple;
+    padding: 10px;
+    color: black;
+}
+.grand{
+    background-color: red;
+    padding: 20px;
+    color: black;
+}
+.parent{
+    background-color: orange;
+    padding: 20px;
+}
+.c1{
+    background-color: green;
+    padding: 20px;
+}
+.c2{
+    background-color: cyan;
+}
