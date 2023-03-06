@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color:black;
+    margin-top: 150px;
+ }
+ .logcontainer{
+     border: 2px solid gray;
+     background-image:linear-gradient(#9A0680,#79018C,#4C0070,#160040);
+     border-radius: 30px;
+     height: 500px;
+     width: 400px;
+     display: flex;
+     justify-content: center; 
+ }
+ .logcontainer:hover{
+    transition: .5s ease-in-out ;
+     box-shadow: 0px 0px 50px 5px gray;
+ }
+ #username,#password{
+     display: flex;
+     justify-content: center;
+     width: 300px;
+     height: 50px;
+     margin-top: 70px;
+     border-radius: 10px;
+ }
+ #login{
+     border-radius: 10px;
+     width: 310px;
+     height: 50px;
+     margin-top: 70px;
+     font-size: larger;
+ }
+ #login:hover{
+     transition: .5s ease-in-out ;
+     background-color:#9A0680;
+     /* box-shadow:0px 0px 10px white; */
+ }
+ 
+ 

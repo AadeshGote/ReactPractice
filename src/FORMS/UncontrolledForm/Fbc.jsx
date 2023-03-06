@@ -18,7 +18,7 @@ const Form=()=>{
 
             <label htmlFor="password">PASSWORD:</label>
             <input type="password" name="" id="password" ref={passRef}/>
-
+            
             <button onClick={handleSubmit}>SUBMIT</button>
         </form>
     </div>

@@ -1,0 +1,44 @@
+body{
+   display: flex;
+   justify-content: center;
+   background-color:black;
+   margin-top: 150px;
+}
+.signcontainer{
+    border: 2px solid gray;
+    background-image:linear-gradient(#635985,#443C68,#393053,#18122B);
+    border-radius: 30px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center; 
+}
+.signcontainer:hover{
+   transition: .5s ease-in-out ;
+    box-shadow: 0px 0px 50px 5px gray;
+}
+#username,#password{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+#signup{
+    border-radius: 10px;
+    width: 310px;
+    height: 50px;
+    margin-top: 70px;
+    font-size: larger;
+}
+#signup:hover{
+    transition: .5s ease-in-out ;
+    background-color: #635985;
+    /* box-shadow:0px 0px 10px white; */
+}
+h2{
+    color:white;
+    display: flex;
+    justify-content: center;
+}
