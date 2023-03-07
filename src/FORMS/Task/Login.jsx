@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link,useNavigate } from 'react-router-dom'
 import "./moduleCSS/Login.css"
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -29,16 +29,20 @@ const Login = () => {
     }
   return (
     <div className='logcontainer'>
-        
         <form action="">
-            <input type="text" placeholder="username" id="username" onChange={(e)=>{
-                setUsername(e.target.value)
-            }} /><br></br>
-            <input type="password" placeholder="password" id="password" onChange={(e)=>{
-                setPassword(e.target.value)
-            }}  /><br></br>
+        <div className='logname'><h2>LOGIN</h2></div>
 
-            <button onClick={handleSubmit} id="login">Login</button>
+            <div className='logdiv'><input type="text" placeholder="username" id="user" onChange={(e)=>{
+                setUsername(e.target.value)
+            }} /><br></br></div>
+
+           <div className='logdiv'> <input type="password" placeholder="password" id="pwd" onChange={(e)=>{
+                setPassword(e.target.value)
+            }}  /><br></br></div>
+
+           <div className='logbtn'><button onClick={handleSubmit} id="login">LOGIN</button></div>
+
+           <div className='tohome'><h3>Alredy have account? <Link to={'/'} id="loglink">SIGNUP</Link></h3></div>
         </form>
     </div>
   )

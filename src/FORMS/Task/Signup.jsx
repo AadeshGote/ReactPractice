@@ -1,5 +1,5 @@
 import React,{ useState} from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import "./moduleCSS/Signup.css"
 
 const Signup = () => {
@@ -17,18 +17,31 @@ const Signup = () => {
   return (
     <div className='signcontainer'>
         <form action="">
-            <h2>SIGNUP</h2>
-            <input type="text" placeholder="username" id="username" onChange={(e)=>{
+          <div className='pgname'><h2>SIGNUP</h2></div>
+
+          <div className='inputdiv'> <input type="text" placeholder="username" id="username" onChange={(e)=>{
                 setUsername(e.target.value)
-            }} /><br></br>
+            }} /><br></br></div>
 
-            <input type="password" placeholder="password" id="password" onChange={(e)=>{
+          <div className='inputdiv'> <input type="password" placeholder="password" id="password" onChange={(e)=>{
                 setPassword(e.target.value)
-            }}  /><br></br>
+            }}  /><br></br></div>
 
-            <button onClick={handleSubmit} id="signup">SIGNUP</button>
-              
+          <div className='btn'><button onClick={handleSubmit} id="signup">SIGNUP</button></div>
+
+          <div className='tologin'><h3>Alredy have account? <Link to={'/Login'} id="link">Login</Link></h3></div>
+            
         </form>
+
+
+
+        {/* 
+           
+
+           
+
+            
+               */}
     </div>
   )
 }
