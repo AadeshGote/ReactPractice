@@ -42,7 +42,7 @@ const Login = () => {
 
            <div className='logbtn'><button onClick={handleSubmit} id="login">LOGIN</button></div>
 
-           <div className='tohome'><h3>Alredy have account? <Link to={'/'} id="loglink">SIGNUP</Link></h3></div>
+           <div className='tohome'><h3>Don't have account? <Link to={'/'} id="loglink">SIGNUP</Link></h3></div>
         </form>
     </div>
   )
