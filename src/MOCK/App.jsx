@@ -1,11 +1,18 @@
-import React from "react";
-import JSON from "./mock.json"
-import Nav from "./Nav"
+import React, { Component } from 'react'
 
-const App=()=>{
-    return(
-        <Nav data={JSON}/>
+ class App extends Component {
+
+    constructor()
+    {
+        super()
+        this.state={name:"aadesh"}
+    }
+  render() {
+    return (
+      <div>
+        <h1>{this.state.name}</h1>
+      </div>
     )
+  }
 }
 export default App
-
