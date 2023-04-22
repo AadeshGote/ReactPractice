@@ -1,15 +1,26 @@
 import React,{useState} from "react";
 import axiosInstance from "./axiosinstance";
+import { useNavigate } from "react-router-dom";
 
 const Createposts=()=>{
     let[coursename,setCoursename]=useState("")
     let[trainername,setTrainername]=useState("")
+    let navigate=useNavigate()
 
     let handleSubmit= async (e)=>{
           e.preventDefault()
-          let payload={coursename,trainername}
-          let data= await axiosInstance.post('/posts',payload)
-           console.log(data);
+
+         try 
+         {
+            let payload={coursename,trainername}
+            let data= await axiosInstance.post('/posts',payload)
+            navigate("/viewposts")
+             console.log(data);
+         }
+         catch 
+         {
+            console.log("UNABLE TO CONNECT TO SERVER");
+         }
     }
     
 

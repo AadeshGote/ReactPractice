@@ -1,18 +1,12 @@
-import React, { Component } from 'react'
-
- class App extends Component {
-
-    constructor()
-    {
-        super()
-        this.state={name:"aadesh"}
-    }
-  render() {
-    return (
-      <div>
-        <h1>{this.state.name}</h1>
-      </div>
-    )
-  }
+import React from 'react'
+import {AiOutlineHeart,AiFillHeart} from "react-icons/ai"
+const App = () => {
+  return (
+    <div>
+  <AiOutlineHeart size="30px" color='red'/>
+  <AiFillHeart size="30px" color="red"/>
+    </div>
+  )
 }
+
 export default App

@@ -32,16 +32,6 @@ const Signup = () => {
           <div className='tologin'><h3>Alredy have account? <Link to={'/Login'} id="link">Login</Link></h3></div>
             
         </form>
-
-
-
-        {/* 
-           
-
-           
-
-            
-               */}
     </div>
   )
 }
